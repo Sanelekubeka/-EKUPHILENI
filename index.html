@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EKUPHILENI HEALING INSTITUTE</title>
+<meta name="description" content="Gogo Dine Ondlanzi – Traditional Spiritual Healer, Gobela, and Trainer. Book a consultation, ancestral guidance session, or join our spiritual training programme.">
+<meta name="keywords" content="spiritual healer, gobela, sangoma, ancestral healing, spiritual consultation, South Africa, traditional healer">
+<meta property="og:title" content="EKUPHILENI HEALING INSTITUTE">
+<meta property="og:description" content="Traditional Spiritual Healer & Gobela offering consultations, ancestral guidance, and spiritual training.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gogodineondlanzi.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0d0a07;
+    --bg2:       #130f0a;
+    --bg3:       #1a1410;
+    --gold:      #c9a84c;
+    --gold2:     #e8c87a;
+    --cream:     #f0e6d0;
+    --text:      #d4c4a8;
+    --muted:     #7a6a52;
+    --border:    rgba(201,168,76,0.25);
+    --shadow:    0 8px 40px rgba(0,0,0,0.7);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Cormorant Garamond',serif;
+    font-size:18px;
+    line-height:1.7;
+    overflow-x:hidden;
+  }
+
+  body::before{
+    content:'';
+    position:fixed;inset:0;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events:none;z-index:9999;opacity:.5;
+  }
+
+  nav{
+    position:fixed;top:0;width:100%;z-index:1000;
+    padding:0 5%;
+    display:flex;align-items:center;justify-content:space-between;
+    height:72px;
+    background:linear-gradient(180deg,rgba(13,10,7,0.97) 0%,rgba(13,10,7,0.85) 100%);
+    border-bottom:1px solid var(--border);
+    backdrop-filter:blur(10px);
+  }
+  .nav-logo{
+    font-family:'Cinzel',serif;
+    font-size:1.05rem;letter-spacing:0.15em;
+    color:var(--gold);text-decoration:none;
+    line-height:1.2;
+  }
+  .nav-logo span{display:block;font-size:0.6rem;color:var(--muted);letter-spacing:0.3em;text-transform:uppercase;}
+  .nav-links{display:flex;gap:2.5rem;list-style:none;}
+  .nav-links a{
+    font-family:'Cinzel',serif;font-size:0.75rem;
+    letter-spacing:0.2em;text-transform:uppercase;
+    color:var(--text);text-decoration:none;
+    transition:color .3s;
+  }
+  .nav-links a:hover,.nav-links a.active{color:var(--gold);}
+  .nav-cta{
+    font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:0.2em;
+    padding:10px 22px;border:1px solid var(--gold);
+    color:var(--gold);background:transparent;cursor:pointer;
+    transition:all .3s;text-decoration:none;
+  }
+  .nav-cta:hover{background:var(--gold);color:var(--bg);}
+  .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px;}
+  .hamburger span{display:block;width:24px;height:1.5px;background:var(--gold);transition:all .3s;}
+  .mobile-menu{
+    display:none;position:fixed;inset:0;top:72px;
+    background:rgba(13,10,7,0.98);z-index:999;
+    flex-direction:column;align-items:center;justify-content:center;gap:2.5rem;
+  }
+  .mobile-menu.open{display:flex;}
+  .mobile-menu a{
+    font-family:'Cinzel',serif;font-size:1.1rem;letter-spacing:0.25em;
+    color:var(--cream);text-decoration:none;
+  }
+
+  .page{display:none;min-height:100vh;padding-top:72px;}
+  .page.active{display:block;}
+
+  .hero{
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    position:relative;overflow:hidden;
+    background:radial-gradient(ellipse at 30% 60%, rgba(120,70,20,0.18) 0%, transparent 60%),
+               radial-gradient(ellipse at 80% 20%, rgba(201,168,76,0.08) 0%, transparent 50%),
+               var(--bg);
+    text-align:center;padding:6rem 5% 4rem;
+  }
+  .hero-ornament{
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    width:700px;height:700px;opacity:0.03;
+    border-radius:50%;border:1px solid var(--gold);
+    animation:pulse 8s ease-in-out infinite;
+  }
+  .hero-ornament:nth-child(2){width:500px;height:500px;animation-delay:2s;}
+  .hero-ornament:nth-child(3){width:300px;height:300px;animation-delay:4s;}
+  @keyframes pulse{0%,100%{opacity:0.03;}50%{opacity:0.07;}}
+  .hero-inner{position:relative;z-index:1;max-width:780px;margin:0 auto;}
+  .hero-eyebrow{
+    font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:0.4em;
+    color:var(--gold);text-transform:uppercase;margin-bottom:1.5rem;
+    animation:fadeUp .8s ease both;
+  }
+  .hero h1{
+    font-family:'IM Fell English',serif;
+    font-size:clamp(2.8rem,7vw,5.5rem);
+    color:var(--cream);line-height:1.1;font-weight:400;
+    margin-bottom:1rem;
+    animation:fadeUp .8s .15s ease both;
+  }
+  .hero h1 em{color:var(--gold);font-style:italic;}
+  .hero-subtitle{
+    font-size:1.1rem;color:var(--muted);font-style:italic;
+    max-width:520px;margin:0 auto 2.5rem;
+    animation:fadeUp .8s .3s ease both;
+  }
+  .hero-divider{
+    display:flex;align-items:center;gap:1rem;justify-content:center;
+    margin-bottom:2.5rem;animation:fadeUp .8s .4s ease both;
+  }
+  .hero-divider::before,.hero-divider::after{
+    content:'';flex:1;max-width:100px;height:1px;background:var(--border);
+  }
+  .hero-divider-icon{color:var(--gold);font-size:1.2rem;}
+  .btn-primary{
+    display:inline-block;
+    font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.25em;
+    padding:16px 40px;background:var(--gold);color:var(--bg);
+    text-decoration:none;transition:all .3s;
+    animation:fadeUp .8s .5s ease both;
+  }
+  .btn-primary:hover{background:var(--gold2);transform:translateY(-2px);}
+  .btn-outline{
+    display:inline-block;
+    font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.25em;
+    padding:15px 38px;border:1px solid var(--gold);color:var(--gold);
+    text-decoration:none;transition:all .3s;margin-left:1rem;
+    animation:fadeUp .8s .6s ease both;
+  }
+  .btn-outline:hover{background:var(--gold);color:var(--bg);}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:none;}}
+
+  section{padding:6rem 5%;}
+  .section-label{
+    font-family:'Cinzel',serif;font-size:0.65rem;letter-spacing:0.45em;
+    color:var(--gold);text-transform:uppercase;margin-bottom:1rem;
+  }
+  .section-title{
+    font-family:'IM Fell English',serif;font-size:clamp(2rem,4vw,3rem);
+    color:var(--cream);font-weight:400;line-height:1.2;margin-bottom:1.5rem;
+  }
+  .section-title em{color:var(--gold);font-style:italic;}
+  .ornamental-line{
+    display:flex;align-items:center;gap:1rem;margin-bottom:3rem;
+  }
+  .ornamental-line::after{content:'';flex:1;max-width:80px;height:1px;background:var(--border);}
+  .ornamental-line-icon{color:var(--gold);}
+
+  .about-strip{
+    background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+    display:grid;grid-template-columns:1fr 1fr;gap:0;
+  }
+  .about-text-side{padding:5rem 6% 5rem 5%;display:flex;flex-direction:column;justify-content:center;}
+  .about-img-side{
+    background:linear-gradient(135deg,rgba(120,70,20,0.3),rgba(201,168,76,0.05)),
+               var(--bg3);
+    display:flex;align-items:center;justify-content:center;
+    min-height:400px;position:relative;overflow:hidden;
+  }
+  .about-img-placeholder{
+    width:220px;height:220px;border-radius:50%;
+    border:1px solid var(--border);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--gold);font-size:5rem;
+  }
+  .about-img-side::before{
+    content:'';position:absolute;inset:0;
+    background:radial-gradient(ellipse at center,rgba(201,168,76,0.07),transparent 70%);
+  }
+  .about-text-side p{color:var(--text);font-size:1.05rem;margin-bottom:1.2rem;}
+
+  .services-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5px;
+    background:var(--border);
+  }
+  .service-card{
+    background:var(--bg2);padding:3rem 2.5rem;
+    transition:background .3s;position:relative;overflow:hidden;
+    cursor:pointer;
+  }
+  .service-card::before{
+    content:'';position:absolute;bottom:0;left:0;width:100%;height:2px;
+    background:var(--gold);transform:scaleX(0);transform-origin:left;
+    transition:transform .4s ease;
+  }
+  .service-card:hover{background:var(--bg3);}
+  .service-card:hover::before{transform:scaleX(1);}
+  .service-icon{font-size:2rem;margin-bottom:1.5rem;}
+  .service-card h3{
+    font-family:'Cinzel',serif;font-size:0.9rem;letter-spacing:0.15em;
+    color:var(--gold);margin-bottom:1rem;
+  }
+  .service-card p{font-size:0.95rem;color:var(--muted);}
+  .service-price{
+    margin-top:1.5rem;font-family:'Cinzel',serif;font-size:0.8rem;
+    color:var(--gold2);letter-spacing:0.1em;
+  }
+
+  .testimonial-strip{
+    background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+    text-align:center;padding:5rem 5%;
+  }
+  .testimonial-quote{
+    font-family:'IM Fell English',serif;font-size:clamp(1.3rem,3vw,2rem);
+    font-style:italic;color:var(--cream);max-width:700px;margin:0 auto 1.5rem;
+    line-height:1.6;
+  }
+  .testimonial-author{font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:0.3em;color:var(--gold);}
+
+  .media-intro{max-width:640px;margin-bottom:3rem;}
+  .media-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;
+    background:var(--border);
+  }
+  .media-item{
+    background:var(--bg2);aspect-ratio:4/3;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    color:var(--muted);font-size:3rem;gap:1rem;
+    position:relative;overflow:hidden;transition:background .3s;
+    cursor:pointer;
+  }
+  .media-item:hover{background:var(--bg3);}
+  .media-item-label{font-family:'Cinzel',serif;font-size:0.65rem;letter-spacing:0.25em;color:var(--gold);}
+  .media-item p{font-size:0.85rem;color:var(--muted);font-style:italic;padding:0 1.5rem;text-align:center;}
+  .media-section-title{
+    font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.35em;
+    color:var(--gold);margin:3.5rem 0 1.5rem;text-transform:uppercase;
+  }
+
+  /* ─── BOOKING PAGE ─── */
+  .booking-layout{
+    display:grid;grid-template-columns:1fr 1.3fr;gap:4rem;
+  }
+
+  /* ── SERVICE CATEGORIES (left panel) ── */
+  .service-categories{margin-bottom:2rem;}
+
+  .cat-tab-bar{
+    display:flex;flex-wrap:wrap;gap:6px;margin-bottom:1.5rem;
+  }
+  .cat-tab{
+    font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:0.2em;
+    padding:7px 14px;border:1px solid var(--border);color:var(--muted);
+    background:transparent;cursor:pointer;transition:all .25s;
+    text-transform:uppercase;
+  }
+  .cat-tab.active,.cat-tab:hover{
+    border-color:var(--gold);color:var(--gold);background:rgba(201,168,76,0.06);
+  }
+
+  .cat-panel{display:none;}
+  .cat-panel.active{display:block;}
+
+  .cat-heading{
+    font-family:'IM Fell English',serif;font-size:1.5rem;color:var(--cream);
+    margin-bottom:0.3rem;font-weight:400;
+  }
+  .cat-subheading{
+    font-size:0.88rem;color:var(--muted);font-style:italic;margin-bottom:1.4rem;
+  }
+
+  .service-option{
+    border:1px solid var(--border);padding:1.2rem 1.5rem;margin-bottom:1px;
+    cursor:pointer;transition:all .3s;position:relative;
+  }
+  .service-option.selected,.service-option:hover{
+    border-color:var(--gold);background:rgba(201,168,76,0.05);
+  }
+  .service-option h4{
+    font-family:'Cinzel',serif;font-size:0.75rem;letter-spacing:0.12em;color:var(--cream);
+    margin-bottom:0.3rem;padding-right:5rem;
+  }
+  .service-option p{font-size:0.88rem;color:var(--muted);padding-right:5rem;}
+  .service-option .price{
+    position:absolute;right:1.5rem;top:50%;transform:translateY(-50%);
+    font-family:'Cinzel',serif;font-size:0.8rem;color:var(--gold);white-space:nowrap;
+  }
+  .price-tbd{
+    position:absolute;right:1.5rem;top:50%;transform:translateY(-50%);
+    font-family:'Cinzel',serif;font-size:0.65rem;color:var(--muted);
+    letter-spacing:0.15em;
+  }
+
+  .booking-info h3{
+    font-family:'Cinzel',serif;font-size:0.85rem;letter-spacing:0.2em;
+    color:var(--gold);margin:2rem 0 0.7rem;
+  }
+  .booking-info p{font-size:0.95rem;color:var(--muted);margin-bottom:0.4rem;}
+
+  .form-group{margin-bottom:1.5rem;}
+  .form-group label{
+    display:block;font-family:'Cinzel',serif;font-size:0.65rem;
+    letter-spacing:0.3em;color:var(--gold);margin-bottom:0.6rem;text-transform:uppercase;
+  }
+  .form-group input,.form-group select,.form-group textarea{
+    width:100%;background:var(--bg2);border:1px solid var(--border);
+    color:var(--cream);padding:14px 16px;font-family:'Cormorant Garamond',serif;
+    font-size:1rem;outline:none;transition:border-color .3s;
+    -webkit-appearance:none;
+  }
+  .form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+    border-color:var(--gold);
+  }
+  .form-group select option{background:var(--bg2);}
+  .form-group textarea{resize:vertical;min-height:110px;}
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+  .btn-submit{
+    width:100%;padding:18px;background:var(--gold);color:var(--bg);
+    font-family:'Cinzel',serif;font-size:0.8rem;letter-spacing:0.25em;
+    border:none;cursor:pointer;transition:all .3s;margin-top:0.5rem;
+  }
+  .btn-submit:hover{background:var(--gold2);}
+  .booking-success{
+    display:none;text-align:center;padding:3rem;
+    border:1px solid var(--gold);background:rgba(201,168,76,0.05);
+  }
+  .booking-success h3{
+    font-family:'IM Fell English',serif;font-size:1.8rem;color:var(--gold);margin-bottom:1rem;
+  }
+
+  .contact-layout{
+    display:grid;grid-template-columns:1fr 1fr;gap:5rem;max-width:1000px;
+  }
+  .contact-detail{
+    display:flex;gap:1.2rem;margin-bottom:2rem;align-items:flex-start;
+  }
+  .contact-icon{font-size:1.4rem;color:var(--gold);margin-top:2px;flex-shrink:0;}
+  .contact-detail h4{
+    font-family:'Cinzel',serif;font-size:0.7rem;letter-spacing:0.3em;
+    color:var(--gold);margin-bottom:0.4rem;
+  }
+  .contact-detail p{font-size:0.95rem;color:var(--muted);}
+  .contact-detail a{color:var(--text);text-decoration:none;transition:color .3s;}
+  .contact-detail a:hover{color:var(--gold);}
+  .map-placeholder{
+    background:var(--bg2);border:1px solid var(--border);
+    height:220px;display:flex;align-items:center;justify-content:center;
+    color:var(--muted);font-style:italic;margin-top:2rem;font-size:0.9rem;
+  }
+
+  footer{
+    background:var(--bg2);border-top:1px solid var(--border);
+    padding:3rem 5%;
+    display:grid;grid-template-columns:1fr auto 1fr;
+    align-items:center;gap:2rem;
+  }
+  .footer-logo{
+    font-family:'Cinzel',serif;font-size:0.9rem;letter-spacing:0.15em;color:var(--gold);
+  }
+  .footer-logo span{display:block;font-size:0.6rem;color:var(--muted);letter-spacing:0.3em;margin-top:3px;}
+  .footer-center{text-align:center;}
+  .footer-links{display:flex;gap:2rem;list-style:none;justify-content:flex-end;}
+  .footer-links a{
+    font-family:'Cinzel',serif;font-size:0.65rem;letter-spacing:0.2em;
+    color:var(--muted);text-decoration:none;transition:color .3s;
+  }
+  .footer-links a:hover{color:var(--gold);}
+  .footer-copy{font-size:0.75rem;color:var(--muted);margin-top:0.5rem;}
+
+  .page-hero{
+    padding:5rem 5% 3rem;text-align:center;
+    background:radial-gradient(ellipse at 50% 100%,rgba(201,168,76,0.06),transparent 70%);
+    border-bottom:1px solid var(--border);
+  }
+
+  @media(max-width:900px){
+    .about-strip{grid-template-columns:1fr;}
+    .about-img-side{min-height:260px;}
+    .booking-layout{grid-template-columns:1fr;}
+    .contact-layout{grid-template-columns:1fr;}
+    footer{grid-template-columns:1fr;text-align:center;}
+    .footer-links{justify-content:center;}
+    .form-row{grid-template-columns:1fr;}
+  }
+  @media(max-width:768px){
+    .nav-links,.nav-cta{display:none;}
+    .hamburger{display:flex;}
+    .hero h1{font-size:2.5rem;}
+    .btn-outline{margin-left:0;margin-top:1rem;display:block;text-align:center;}
+    section{padding:4rem 5%;}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo" onclick="showPage('home')">
+    EKUPHILENI
+    <span>HEALING INSTITUTE</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" onclick="showPage('home')" class="active" id="nav-home">Home</a></li>
+    <li><a href="#" onclick="showPage('media')" id="nav-media">Media</a></li>
+    <li><a href="#" onclick="showPage('services')" id="nav-services">Services & Booking</a></li>
+    <li><a href="#" onclick="showPage('contact')" id="nav-contact">Contact</a></li>
+  </ul>
+  <a href="#" class="nav-cta" onclick="showPage('services')">Book a Session</a>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#" onclick="showPage('home');toggleMenu()">Home</a>
+  <a href="#" onclick="showPage('media');toggleMenu()">Media</a>
+  <a href="#" onclick="showPage('services');toggleMenu()">Services & Booking</a>
+  <a href="#" onclick="showPage('contact');toggleMenu()">Contact</a>
+  <a href="#" onclick="showPage('services');toggleMenu()" style="color:var(--gold);">✦ Book a Session</a>
+</div>
+
+<!-- ══ HOME ══ -->
+<div class="page active" id="page-home">
+  <section class="hero" aria-label="Welcome">
+    <div class="hero-ornament"></div>
+    <div class="hero-ornament"></div>
+    <div class="hero-ornament"></div>
+    <div class="hero-inner">
+      <p class="hero-eyebrow">✦ &nbsp; Ancestral Wisdom · Healing · Guidance &nbsp; ✦</p>
+      <h1>Walk in the Light of <em>Your Ancestors</em></h1>
+      <p class="hero-subtitle">Traditional Spiritual Healer, Gobela & Trainer guiding you toward healing, clarity, and purpose through ancestral connection.</p>
+      <div class="hero-divider"><span class="hero-divider-icon">✦</span></div>
+      <a href="#" class="btn-primary" onclick="showPage('services')">Book a Consultation</a>
+      <a href="#" class="btn-outline" onclick="showPage('contact')">Get in Touch</a>
+    </div>
+  </section>
+
+  <div class="about-strip">
+    <div class="about-text-side">
+      <p class="section-label">About  Ekuphileni</p>
+      <h2 class="section-title">A Vessel of <em>Ancestral Grace</em></h2>
+      <div class="ornamental-line"><span class="ornamental-line-icon">✦</span></div>
+      <p>Gogo Spiwe Kubheka is a gifted traditional spiritual healer and Gobela with years of sacred practice, devoted to guiding individuals through spiritual awakening, emotional healing, and ancestral reconnection.</p>
+      <p>As a Gobela, He trains and initiates those called by the ancestors into the sacred path of ukuthwasa, providing mentorship, ceremony, and lifelong spiritual support.</p>
+      <a href="#" class="btn-outline" style="margin-top:1.5rem;display:inline-block;" onclick="showPage('contact')">Connect with Gogo Sphiwe</a>
+    </div>
+    <div class="about-img-side">
+      <div class="about-img-placeholder">🌿</div>
+    </div>
+  </div>
+
+  <section>
+    <p class="section-label">What We Offer</p>
+    <h2 class="section-title">Sacred <em>Services</em></h2>
+    <div class="ornamental-line"><span class="ornamental-line-icon">✦</span></div>
+    <div class="services-grid">
+      <div class="service-card" onclick="showPage('services')">
+        <div class="service-icon">🌟</div>
+        <h3>Vula Inhlanhla</h3>
+        <p>Opening of luck and fortune — for employment, business, love, and life's path.</p>
+        <p class="service-price">From R750 →</p>
+      </div>
+      <div class="service-card" onclick="showPage('services')">
+        <div class="service-icon">🏠</div>
+        <h3>Ezempi</h3>
+        <p>Home, property, and spiritual protection rituals — cleansing spaces and removing negative forces.</p>
+        <p class="service-price">From R1,500 →</p>
+      </div>
+      <div class="service-card" onclick="showPage('services')">
+        <div class="service-icon">🕯️</div>
+        <h3>Geza / Cleansing</h3>
+        <p>Full spiritual cleansing of body and spirit — isikhwama, emfuleni, and ancestral restoration.</p>
+        <p class="service-price">From R1,500 →</p>
+      </div>
+      <div class="service-card" onclick="showPage('services')">
+        <div class="service-icon">🌿</div>
+        <h3>Imbiza</h3>
+        <p>Traditional herbal medicine for men and women — ulaleleni, isilumo, vuka sikhulume, and more.</p>
+        <p class="service-price">From R250 →</p>
+      </div>
+      <div class="service-card" onclick="showPage('services')">
+        <div class="service-icon">🪬</div>
+        <h3>Consultation & Ukuthwasa</h3>
+        <p>Face-to-face and video consultations, plus sacred ukuthwasa training for those called by the ancestors.</p>
+        <p class="service-price">From R450 →</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="testimonial-strip">
+    <p class="section-label" style="margin-bottom:2rem;">Client Testimonial</p>
+    <p class="testimonial-quote">" Ekuphileni guidance changed my life. He connected me to my ancestors in a way I never thought possible. I found peace, clarity, and purpose in a single session."</p>
+    <p class="testimonial-author">✦ &nbsp; Themba M., Johannesburg &nbsp; ✦</p>
+  </div>
+</div>
+
+<!-- ══ MEDIA ══ -->
+<div class="page" id="page-media">
+  <div class="page-hero">
+    <p class="section-label">Gallery & Media</p>
+    <h1 class="section-title">Sacred <em>Moments</em></h1>
+    <p style="color:var(--muted);max-width:500px;margin:0 auto;">Glimpses of ceremonies, healing spaces, and the spiritual journey shared with our community.</p>
+  </div>
+
+  <section>
+    <p class="media-section-title">✦ &nbsp; Photo Gallery</p>
+    <div class="media-grid">
+      <div class="media-item"><span>🌿</span><span class="media-item-label">Healing Space</span><p>Sacred ceremony setting</p></div>
+      <div class="media-item"><span>🕯️</span><span class="media-item-label">Ancestral Altar</span><p>Ritual preparation</p></div>
+      <div class="media-item"><span>🪬</span><span class="media-item-label">Consultation</span><p>Spiritual guidance session</p></div>
+      <div class="media-item"><span>🌕</span><span class="media-item-label">Ceremony</span><p>Full moon gathering</p></div>
+      <div class="media-item"><span>🌾</span><span class="media-item-label">Nature Healing</span><p>Connecting with the earth</p></div>
+      <div class="media-item"><span>✨</span><span class="media-item-label">Training</span><p>Ukuthwasa mentorship</p></div>
+    </div>
+
+    <p class="media-section-title">✦ &nbsp; Videos & Interviews</p>
+    <div class="media-grid" style="grid-template-columns:repeat(auto-fill,minmax(340px,1fr));">
+      <div class="media-item" style="aspect-ratio:16/9;background:var(--bg3);">
+        <span style="font-size:3.5rem;">▶</span>
+        <span class="media-item-label">Understanding Ukuthwasa</span>
+        <p>Gogo Sphiwe explains the sacred calling</p>
+      </div>
+      <div class="media-item" style="aspect-ratio:16/9;background:var(--bg3);">
+        <span style="font-size:3.5rem;">▶</span>
+        <span class="media-item-label">Ancestral Healing Explained</span>
+        <p>What to expect in a consultation</p>
+      </div>
+    </div>
+
+    <p class="media-section-title">✦ &nbsp; Press & Features</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1px;background:var(--border);">
+      <div style="background:var(--bg2);padding:2rem;">
+        <p style="font-family:'Cinzel',serif;font-size:0.65rem;color:var(--gold);letter-spacing:0.3em;margin-bottom:0.7rem;">FEATURED INTERVIEW</p>
+        <p style="font-family:'IM Fell English',serif;font-size:1.2rem;color:var(--cream);margin-bottom:0.7rem;">"The Ancestors Speak Through Her"</p>
+        <p style="font-size:0.9rem;color:var(--muted);font-style:italic;">Spiritual Healing Magazine, 2023</p>
+      </div>
+      <div style="background:var(--bg2);padding:2rem;">
+        <p style="font-family:'Cinzel',serif;font-size:0.65rem;color:var(--gold);letter-spacing:0.3em;margin-bottom:0.7rem;">RADIO FEATURE</p>
+        <p style="font-family:'IM Fell English',serif;font-size:1.2rem;color:var(--cream);margin-bottom:0.7rem;">"Reconnecting with African Roots"</p>
+        <p style="font-size:0.9rem;color:var(--muted);font-style:italic;">Ubuntu FM — Morning Show, 2024</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ══ SERVICES & BOOKING ══ -->
+<div class="page" id="page-services">
+  <div class="page-hero">
+    <p class="section-label">Services & Booking</p>
+    <h1 class="section-title">Begin Your <em>Healing Journey</em></h1>
+    <p style="color:var(--muted);max-width:520px;margin:0 auto;">Choose a service below and complete the booking form.  EKUPHILENI we will confirm your appointment within 24 hours.</p>
+  </div>
+
+  <section>
+    <div class="booking-layout">
+
+      <!-- Left: Service Categories -->
+      <div class="booking-info">
+        <p class="section-label">Our Services</p>
+        <h2 class="section-title" style="font-size:2rem;margin-bottom:1.5rem;">What We <em>Offer</em></h2>
+
+        <!-- Category Tabs -->
+        <div class="cat-tab-bar">
+          <button class="cat-tab active" onclick="showCat('vula',this)">Vula Inhlanhla</button>
+          <button class="cat-tab" onclick="showCat('ezempi',this)">Ezempi</button>
+          <button class="cat-tab" onclick="showCat('geza',this)">Geza / Cleansing</button>
+          <button class="cat-tab" onclick="showCat('imbiza',this)">Imbiza</button>
+          <button class="cat-tab" onclick="showCat('consult',this)">Consultation & Ukuthwasa</button>
+        </div>
+
+        <!-- Panel 1: Vula Inhlanhla -->
+        <div class="cat-panel active" id="cat-vula">
+          <p class="cat-heading">Vula Inhlanhla</p>
+          <p class="cat-subheading">Opening of Luck & Fortune — consultation required first</p>
+
+          <div class="service-option selected" onclick="selectService(this,'Umsebenzi — Vula Inhlanhla')">
+            <h4>Umsebenzi</h4>
+            <p>Ungaxoshwa / qasheka. We consult first.</p>
+            <span class="price">R1,200</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Business — Vula Inhlanhla')">
+            <h4>Business</h4>
+            <p>Selling, tenders, any business. We consult first.</p>
+            <span class="price">R2,000</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Uthando — Vula Inhlanhla')">
+            <h4>Uthando</h4>
+            <p>Qonywa, Thandeka endodeni, etc. We consult first.</p>
+            <span class="price">R750</span>
+          </div>
+        </div>
+
+        <!-- Panel 2: Ezempi -->
+        <div class="cat-panel" id="cat-ezempi">
+          <p class="cat-heading">Ezempi</p>
+          <p class="cat-subheading">Home & Property Spiritual Rituals</p>
+
+          <div class="service-option" onclick="selectService(this,'Umuzi / Ikhaya')">
+            <h4>Umuzi / Ikhaya</h4>
+            <p>Consultation first.</p>
+            <span class="price-tbd">TBD</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Isichitho / Isinyama')">
+            <h4>Isichitho / Isinyama</h4>
+            <p>Ibavu nemithi. Cleansing is excluded.</p>
+            <span class="price">R1,500</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Izitha / Abathakathi')">
+            <h4>Izitha / Abathakathi</h4>
+            <p>Ukuqiniswa — intindili, iphondo, incweba, qinisa imoto, etc.</p>
+            <span class="price">R3,000</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Khipha Isilwane')">
+            <h4>Khipha Isilwane</h4>
+            <p>Consultation first to get more information.</p>
+            <span class="price">R5,000</span>
+          </div>
+        </div>
+
+        <!-- Panel 3: Geza / Cleansing -->
+        <div class="cat-panel" id="cat-geza">
+          <p class="cat-heading">Geza / Cleansing</p>
+          <p class="cat-subheading">Full Spiritual Cleansing of Body & Spirit</p>
+
+          <div class="service-option" onclick="selectService(this,'Isikhwama / Amagobongo Cleansing')">
+            <h4>Isikhwama / Amagobongo</h4>
+            <p>Cleansing isikhwama sedlozi — Misela Amagobongo.</p>
+            <span class="price-tbd">TBD</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Emfuleni — General')">
+            <h4>Emfuleni — General</h4>
+            <p>General spiritual cleansing at the river.</p>
+            <span class="price">R1,500</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Emfuleni — Abortion / Miscarriage')">
+            <h4>Emfuleni — Abortion / Miscarriage</h4>
+            <p>Cleansing after loss. Compassionate spiritual support.</p>
+            <span class="price">R2,500</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Vuma Idlozi')">
+            <h4>Vuma Idlozi</h4>
+            <p>Ancestral acknowledgement and reconciliation ritual.</p>
+            <span class="price">R2,000</span>
+          </div>
+        </div>
+
+        <!-- Panel 4: Imbiza -->
+        <div class="cat-panel" id="cat-imbiza">
+          <p class="cat-heading">Imbiza</p>
+          <p class="cat-subheading">Traditional Herbal Medicine — Obaba / Men &amp; Omama / Women</p>
+
+          <p style="font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:0.3em;color:var(--gold);margin-bottom:0.7rem;margin-top:0.5rem;">OBABA / MEN</p>
+          <div class="service-option" onclick="selectService(this,'Imbiza — Ulaleleni')">
+            <h4>Ulaleleni</h4>
+            <p>Traditional herbal preparation for men.</p>
+            <span class="price">R300</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Imbiza — Baby Maker')">
+            <h4>Baby Maker</h4>
+            <p>Fertility support — traditional formulation.</p>
+            <span class="price">R300</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Imbiza — Ushukela (Men)')">
+            <h4>Ushukela</h4>
+            <p>Traditional herbal medicine for men.</p>
+            <span class="price">R250</span>
+          </div>
+
+          <p style="font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:0.3em;color:var(--gold);margin-bottom:0.7rem;margin-top:1.2rem;">OMAMA / WOMEN</p>
+          <div class="service-option" onclick="selectService(this,'Imbiza — Vuka Sikhulume')">
+            <h4>Vuka Sikhulume</h4>
+            <p>Traditional herbal preparation for women.</p>
+            <span class="price">R300</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Imbiza — Isilumo')">
+            <h4>Isilumo</h4>
+            <p>Traditional herbal medicine for women.</p>
+            <span class="price">R250</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Imbiza — Ceast')">
+            <h4>Ceast</h4>
+            <p>Traditional herbal formulation for women.</p>
+            <span class="price">R250</span>
+          </div>
+        </div>
+
+        <!-- Panel 5: Consultation & Ukuthwasa -->
+        <div class="cat-panel" id="cat-consult">
+          <p class="cat-heading">Consultation & Ukuthwasa</p>
+          <p class="cat-subheading">Spiritual readings, remote sessions &amp; sacred training</p>
+
+          <p style="font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:0.3em;color:var(--gold);margin-bottom:0.7rem;margin-top:0.5rem;">CONSULTATION</p>
+          <div class="service-option" onclick="selectService(this,'Face to Face Consultation')">
+            <h4>Face to Face</h4>
+            <p>Including Imithi. Schedule your appointment via WhatsApp.</p>
+            <span class="price">R450</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Video Call Consultation')">
+            <h4>Video Call</h4>
+            <p>Remote consultation via video call. Schedule your appointment.</p>
+            <span class="price">R500</span>
+          </div>
+
+          <p style="font-family:'Cinzel',serif;font-size:0.6rem;letter-spacing:0.3em;color:var(--gold);margin-bottom:0.7rem;margin-top:1.2rem;">UKUTHWASA</p>
+          <div class="service-option" onclick="selectService(this,'Ubungoma — Ukuthwasa')">
+            <h4>Ubungoma</h4>
+            <p>UMndiki noMndawe, abaLozi. Time is determined by your ancestors.</p>
+            <span class="price-tbd">TBD</span>
+          </div>
+          <div class="service-option" onclick="selectService(this,'Isithunywa — Ukuthwasa')">
+            <h4>Isithunywa</h4>
+            <p>7-day process starting at the Waterfall then the ocean. Details given during preparation.</p>
+            <span class="price-tbd">TBD</span>
+          </div>
+        </div>
+
+        <h3>📍 Location</h3>
+        <p>Johannesburg, Gauteng — South Africa</p>
+        <p>Remote sessions available nationwide</p>
+        <h3>⏰ Hours</h3>
+        <p>Mon – Sat: 08:00 – 18:00</p>
+        <p>Sunday by appointment only</p>
+        <h3>📞 Quick Booking</h3>
+        <p>WhatsApp: <a href="https://wa.me/27735998770" style="color:var(--gold);">+27 73 599 8770</a></p>
+      </div>
+
+      <!-- Right: Booking Form -->
+      <div>
+        <p class="section-label">Book Your Session</p>
+        <h2 class="section-title" style="font-size:2rem;margin-bottom:2rem;">Reserve Your <em>Appointment</em></h2>
+
+        <!-- Step 1: Form -->
+        <div id="bookingForm">
+          <!-- Deposit notice -->
+          <div id="depositNotice" style="border:1px solid var(--border);padding:1.2rem 1.5rem;margin-bottom:1.8rem;background:rgba(201,168,76,0.04);display:flex;gap:1rem;align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1.2rem;flex-shrink:0;">💳</span>
+            <div>
+              <p style="font-family:'Cinzel',serif;font-size:0.68rem;letter-spacing:0.2em;color:var(--gold);margin-bottom:0.3rem;">DEPOSIT REQUIRED TO CONFIRM</p>
+              <p id="depositText" style="font-size:0.9rem;color:var(--muted);">A <strong style="color:var(--cream);">20% deposit</strong> is required to secure your booking. The balance is paid on the day of your session.</p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" id="firstName" placeholder="Your first name" required>
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" id="lastName" placeholder="Your last name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="emailInput" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label>Phone / WhatsApp</label>
+            <input type="tel" id="phoneInput" placeholder="+27 000 000 0000" required>
+          </div>
+          <div class="form-group">
+            <label>Selected Service</label>
+            <select id="serviceSelect" onchange="onServiceChange()" required>
+              <optgroup label="Vula Inhlanhla">
+                <option value="Umsebenzi — Vula Inhlanhla" data-price="1200" selected>Umsebenzi — R1,200</option>
+                <option value="Business — Vula Inhlanhla" data-price="2000">Business — R2,000</option>
+                <option value="Uthando — Vula Inhlanhla" data-price="750">Uthando — R750</option>
+              </optgroup>
+              <optgroup label="Ezempi">
+                <option value="Umuzi / Ikhaya" data-price="0">Umuzi / Ikhaya — TBD</option>
+                <option value="Isichitho / Isinyama" data-price="1500">Isichitho / Isinyama — R1,500</option>
+                <option value="Izitha / Abathakathi" data-price="3000">Izitha / Abathakathi — R3,000</option>
+                <option value="Khipha Isilwane" data-price="5000">Khipha Isilwane — R5,000</option>
+              </optgroup>
+              <optgroup label="Geza / Cleansing">
+                <option value="Isikhwama / Amagobongo Cleansing" data-price="0">Isikhwama / Amagobongo — TBD</option>
+                <option value="Emfuleni — General" data-price="1500">Emfuleni General — R1,500</option>
+                <option value="Emfuleni — Abortion / Miscarriage" data-price="2500">Emfuleni Abortion/Miscarriage — R2,500</option>
+                <option value="Vuma Idlozi" data-price="2000">Vuma Idlozi — R2,000</option>
+              </optgroup>
+              <optgroup label="Imbiza">
+                <option value="Imbiza — Ulaleleni" data-price="300">Ulaleleni (Men) — R300</option>
+                <option value="Imbiza — Baby Maker" data-price="300">Baby Maker (Men) — R300</option>
+                <option value="Imbiza — Ushukela (Men)" data-price="250">Ushukela (Men) — R250</option>
+                <option value="Imbiza — Vuka Sikhulume" data-price="300">Vuka Sikhulume (Women) — R300</option>
+                <option value="Imbiza — Isilumo" data-price="250">Isilumo (Women) — R250</option>
+                <option value="Imbiza — Ceast" data-price="250">Ceast (Women) — R250</option>
+              </optgroup>
+              <optgroup label="Consultation & Ukuthwasa">
+                <option value="Face to Face Consultation" data-price="450">Face to Face Consultation — R450</option>
+                <option value="Video Call Consultation" data-price="500">Video Call Consultation — R500</option>
+                <option value="Ubungoma — Ukuthwasa" data-price="0">Ubungoma (Ukuthwasa) — TBD</option>
+                <option value="Isithunywa — Ukuthwasa" data-price="0">Isithunywa (Ukuthwasa) — TBD</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Preferred Date</label>
+              <input type="date" id="prefDate" required>
+            </div>
+            <div class="form-group">
+              <label>Preferred Time</label>
+              <select id="prefTime">
+                <option>08:00 – 10:00</option>
+                <option>10:00 – 12:00</option>
+                <option>12:00 – 14:00</option>
+                <option>14:00 – 16:00</option>
+                <option>16:00 – 18:00</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Session Type</label>
+            <select id="sessionType">
+              <option>In-Person (Johannesburg)</option>
+              <option>Remote — Phone Call</option>
+              <option>Remote — Video Call</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell us what brings you here (optional)</label>
+            <textarea id="messageInput" placeholder="Share anything you feel comfortable sharing about your situation or spiritual journey…"></textarea>
+          </div>
+
+          <!-- Dynamic submit button area -->
+          <div id="submitArea">
+            <button type="button" onclick="submitBooking()" class="btn-submit">✦ &nbsp; Confirm &amp; Pay Deposit via PayFast</button>
+            <p style="font-size:0.8rem;color:var(--muted);margin-top:0.8rem;display:flex;align-items:center;gap:0.5rem;">
+              <span style="color:var(--gold);">🔒</span> Secured by PayFast · Card, EFT &amp; SnapScan accepted
+            </p>
+          </div>
+          <p style="font-size:0.82rem;color:var(--muted);margin-top:1rem;font-style:italic;">Your information is kept strictly confidential.</p>
+        </div>
+
+        <!-- Step 2a: PayFast deposit (priced services) -->
+        <div id="paymentStep" style="display:none;">
+          <div style="border:1px solid var(--gold);padding:2rem;background:rgba(201,168,76,0.04);margin-bottom:1.5rem;text-align:center;">
+            <div style="font-size:2.5rem;margin-bottom:0.8rem;">💳</div>
+            <p style="font-family:'IM Fell English',serif;font-size:1.5rem;color:var(--cream);margin-bottom:0.5rem;">Secure Your Appointment</p>
+            <p style="color:var(--muted);font-size:0.95rem;margin-bottom:1.5rem;">Pay your deposit now to confirm your booking. The balance is settled on the day.</p>
+            <div style="background:var(--bg3);border:1px solid var(--border);padding:1.2rem;margin-bottom:1.5rem;text-align:left;">
+              <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+                <span style="font-size:0.9rem;color:var(--muted);">Service</span>
+                <span id="payService" style="font-size:0.9rem;color:var(--cream);text-align:right;max-width:60%;"></span>
+              </div>
+              <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+                <span style="font-size:0.9rem;color:var(--muted);">Full Price</span>
+                <span id="payFull" style="font-size:0.9rem;color:var(--cream);"></span>
+              </div>
+              <div style="height:1px;background:var(--border);margin:0.8rem 0;"></div>
+              <div style="display:flex;justify-content:space-between;">
+                <span style="font-family:'Cinzel',serif;font-size:0.8rem;color:var(--gold);letter-spacing:0.1em;">DEPOSIT DUE NOW (20%)</span>
+                <span id="payDeposit" style="font-family:'Cinzel',serif;font-size:1rem;color:var(--gold);"></span>
+              </div>
+            </div>
+            <!-- PayFast sandbox form — replace merchant_id & merchant_key with live credentials -->
+            <form id="payfastForm" action="https://sandbox.payfast.co.za/eng/process" method="POST">
+              <input type="hidden" name="merchant_id" value="10000100">
+              <input type="hidden" name="merchant_key" value="46f0cd694581a">
+              <input type="hidden" name="return_url" value="https://gogodineondlanzi.com/booking-success">
+              <input type="hidden" name="cancel_url" value="https://gogodineondlanzi.com/services">
+              <input type="hidden" name="notify_url" value="https://gogodineondlanzi.com/api/payfast-notify">
+              <input type="hidden" name="name_first" id="pf_name_first">
+              <input type="hidden" name="name_last" id="pf_name_last">
+              <input type="hidden" name="email_address" id="pf_email">
+              <input type="hidden" name="cell_number" id="pf_cell">
+              <input type="hidden" name="amount" id="pf_amount">
+              <input type="hidden" name="item_name" id="pf_item_name">
+              <input type="hidden" name="item_description" id="pf_item_description">
+              <button type="submit" class="btn-submit" style="margin-bottom:1rem;">
+                ✦ &nbsp; Pay Deposit Now
+              </button>
+            </form>
+            <p style="font-size:0.78rem;color:var(--muted);">🔒 You will be redirected to PayFast's secure checkout</p>
+          </div>
+          <button onclick="document.getElementById('paymentStep').style.display='none';document.getElementById('bookingForm').style.display='block';" style="background:none;border:none;color:var(--muted);font-family:'Cinzel',serif;font-size:0.65rem;letter-spacing:0.2em;cursor:pointer;padding:0.5rem 0;">← Go back</button>
+        </div>
+
+        <!-- Step 2b: WhatsApp (TBD services) -->
+        <div id="whatsappStep" style="display:none;">
+          <div style="border:1px solid var(--gold);padding:2.5rem;background:rgba(201,168,76,0.04);text-align:center;">
+            <div style="font-size:2.5rem;margin-bottom:0.8rem;">💬</div>
+            <p style="font-family:'IM Fell English',serif;font-size:1.5rem;color:var(--cream);margin-bottom:0.7rem;">Let's Connect on WhatsApp</p>
+            <p style="color:var(--muted);font-size:0.95rem;max-width:400px;margin:0 auto 1.5rem;">This service requires a consultation first to determine pricing and process. Gogo Sphiwe will guide you from there.</p>
+            <a id="waLink" href="#" target="_blank" class="btn-submit" style="display:inline-block;text-decoration:none;margin-bottom:1rem;">
+              ✦ &nbsp; Open WhatsApp to Book
+            </a>
+            <p style="font-size:0.82rem;color:var(--muted);margin-top:0.5rem;">+27 73 599 8770 · Available Mon–Sat 08:00–18:00</p>
+          </div>
+          <button onclick="document.getElementById('whatsappStep').style.display='none';document.getElementById('bookingForm').style.display='block';" style="background:none;border:none;color:var(--muted);font-family:'Cinzel',serif;font-size:0.65rem;letter-spacing:0.2em;cursor:pointer;padding:1rem 0;">← Go back</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<!-- ══ CONTACT ══ -->
+<div class="page" id="page-contact">
+  <div class="page-hero">
+    <p class="section-label">Get in Touch</p>
+    <h1 class="section-title">We Are <em>Here for You</em></h1>
+    <p style="color:var(--muted);max-width:500px;margin:0 auto;">Reach out with any questions, prayer requests, or to learn more about Gogo Sphiwe's work and services.</p>
+  </div>
+
+  <section>
+    <div class="contact-layout">
+      <div>
+        <p class="section-label">Contact Details</p>
+        <h2 class="section-title" style="font-size:2rem;margin-bottom:2.5rem;">Speak to <em>Us</em></h2>
+
+        <div class="contact-detail">
+          <span class="contact-icon">📍</span>
+          <div>
+            <h4>Location</h4>
+            <p>Johannesburg, Gauteng<br>South Africa</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-icon">📞</span>
+          <div>
+            <h4>Phone & WhatsApp</h4>
+            <p><a href="tel:+27735998770">+27 73 599 8770</a></p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:test@gmail.com">test@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-icon">🕐</span>
+          <div>
+            <h4>Hours</h4>
+            <p>Monday – Saturday: 08:00 – 18:00<br>Sunday: By appointment only</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-icon">📱</span>
+          <div>
+            <h4>Social Media</h4>
+            <p>
+              <a href="#">Facebook</a> &nbsp;·&nbsp;
+              <a href="#">Instagram</a> &nbsp;·&nbsp;
+              <a href="#">YouTube</a>
+            </p>
+          </div>
+        </div>
+        <div class="map-placeholder"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.4980797541834!2d28.003297876248283!3d-26.18047107709128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950b9211440e4b%3A0xa369abe5e683dbee!2s18%20Goring%20Ave%2C%20Auckland%20Park%2C%20Johannesburg%2C%202092!5e0!3m2!1sen!2sza!4v1778965423744!5m2!1sen!2sza" width="450" height="215" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+
+      <div>
+        <p class="section-label">Send a Message</p>
+        <h2 class="section-title" style="font-size:2rem;margin-bottom:2rem;">Leave a <em>Message</em></h2>
+
+        <div id="contactSuccess" style="display:none;text-align:center;padding:2.5rem;border:1px solid var(--gold);background:rgba(201,168,76,0.05);margin-bottom:2rem;">
+          <div style="font-size:2.5rem;margin-bottom:1rem;">✦</div>
+          <p style="font-family:'IM Fell English',serif;font-size:1.4rem;color:var(--gold);">Message Received</p>
+          <p style="color:var(--muted);margin-top:0.5rem;">We will respond within 1–2 business days.</p>
+        </div>
+
+        <form id="contactForm" onsubmit="submitContact(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" placeholder="+27 000 000 0000">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <select>
+              <option>General Enquiry</option>
+              <option>Booking Question</option>
+              <option>Gobela Training</option>
+              <option>Prayer Request</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Your Message</label>
+            <textarea placeholder="How can Gogo Sphiwe help you?" style="min-height:150px;" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">✦ &nbsp; Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div>
+    <div class="footer-logo">
+      EKUPHILENI
+      <span>HEALING INSTITUTE</span>
+    </div>
+    <p class="footer-copy">© 2026 EKUPHILENI. All rights reserved.</p>
+  </div>
+  <div class="footer-center" style="color:var(--gold);font-size:1.5rem;">✦</div>
+  <ul class="footer-links">
+    <li><a href="#" onclick="showPage('home')">Home</a></li>
+    <li><a href="#" onclick="showPage('media')">Media</a></li>
+    <li><a href="#" onclick="showPage('services')">Booking</a></li>
+    <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+  </ul>
+</footer>
+
+<script>
+  function showPage(name){
+    document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+    document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
+    document.getElementById('page-'+name).classList.add('active');
+    document.getElementById('nav-'+name).classList.add('active');
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+  function toggleMenu(){
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+
+  function showCat(id, btn){
+    document.querySelectorAll('.cat-panel').forEach(p=>p.classList.remove('active'));
+    document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));
+    document.getElementById('cat-'+id).classList.add('active');
+    btn.classList.add('active');
+  }
+
+  // Service price map (data-price on <option>)
+  const DEPOSIT_PCT = 0.20;
+  const WA_NUMBER = '27735998770';
+
+  function getSelectedPrice(){
+    const sel = document.getElementById('serviceSelect');
+    if(!sel) return 0;
+    const opt = sel.options[sel.selectedIndex];
+    return parseInt(opt.getAttribute('data-price') || '0', 10);
+  }
+
+  function onServiceChange(){
+    const price = getSelectedPrice();
+    const sel = document.getElementById('serviceSelect');
+    const btn = document.querySelector('#submitArea .btn-submit');
+    const depositText = document.getElementById('depositText');
+    if(price === 0){
+      // TBD service
+      btn.textContent = '✦  Chat on WhatsApp to Book';
+      depositText.innerHTML = 'This service requires a <strong style="color:var(--cream);">consultation first</strong>. We will guide you through the process and pricing on WhatsApp.';
+    } else {
+      const deposit = Math.round(price * DEPOSIT_PCT);
+      btn.innerHTML = '✦ &nbsp; Confirm &amp; Pay R'+deposit+' Deposit via PayFast';
+      depositText.innerHTML = 'A <strong style="color:var(--cream);">20% deposit (R'+deposit+')</strong> is required to secure your booking. Balance of R'+(price-deposit)+' is paid on the day.';
+    }
+  }
+
+  function selectService(el, name){
+    document.querySelectorAll('.service-option').forEach(s=>s.classList.remove('selected'));
+    el.classList.add('selected');
+    const sel = document.getElementById('serviceSelect');
+    if(sel){
+      for(let o of sel.options){
+        if(o.value === name){ o.selected = true; break; }
+      }
+    }
+    onServiceChange();
+  }
+
+  function validateForm(){
+    const fields = ['firstName','lastName','emailInput','phoneInput','prefDate'];
+    for(const id of fields){
+      const el = document.getElementById(id);
+      if(!el || !el.value.trim()){
+        el && el.focus();
+        el && (el.style.borderColor='var(--gold)');
+        return false;
+      }
+    }
+    return true;
+  }
+
+  function submitBooking(){
+    if(!validateForm()) return;
+    const price = getSelectedPrice();
+    const firstName = document.getElementById('firstName').value.trim();
+    const lastName  = document.getElementById('lastName').value.trim();
+    const email     = document.getElementById('emailInput').value.trim();
+    const phone     = document.getElementById('phoneInput').value.trim();
+    const service   = document.getElementById('serviceSelect').value;
+    const date      = document.getElementById('prefDate').value;
+    const time      = document.getElementById('prefTime').value;
+    const stype     = document.getElementById('sessionType').value;
+    const message   = document.getElementById('messageInput').value.trim();
+
+    document.getElementById('bookingForm').style.display = 'none';
+
+    if(price === 0){
+      // WhatsApp flow for TBD services
+      const waMsg = encodeURIComponent(
+        `Hello Gogo Sphiwe 🙏\n\nI would like to book: *${service}*\nDate: ${date} | Time: ${time}\nSession: ${stype}\nName: ${firstName} ${lastName}\nPhone: ${phone}\n\n${message ? 'Notes: '+message : ''}`
+      );
+      document.getElementById('waLink').href = `https://wa.me/${WA_NUMBER}?text=${waMsg}`;
+      document.getElementById('whatsappStep').style.display = 'block';
+      document.getElementById('whatsappStep').scrollIntoView({behavior:'smooth'});
+    } else {
+      // PayFast deposit flow
+      const deposit = (price * DEPOSIT_PCT).toFixed(2);
+      document.getElementById('payService').textContent = service;
+      document.getElementById('payFull').textContent    = 'R'+price.toLocaleString();
+      document.getElementById('payDeposit').textContent = 'R'+Math.round(price*DEPOSIT_PCT).toLocaleString();
+      // Populate PayFast hidden fields
+      document.getElementById('pf_name_first').value    = firstName;
+      document.getElementById('pf_name_last').value     = lastName;
+      document.getElementById('pf_email').value         = email;
+      document.getElementById('pf_cell').value          = phone.replace(/\s/g,'');
+      document.getElementById('pf_amount').value        = deposit;
+      document.getElementById('pf_item_name').value     = 'Deposit: '+service;
+      document.getElementById('pf_item_description').value = `Booking deposit for ${service} on ${date} at ${time}. Balance due on the day.`;
+      document.getElementById('paymentStep').style.display = 'block';
+      document.getElementById('paymentStep').scrollIntoView({behavior:'smooth'});
+    }
+  }
+
+  // Initialise deposit display on page load
+  document.addEventListener('DOMContentLoaded', onServiceChange);
+  function submitContact(e){
+    e.preventDefault();
+    document.getElementById('contactSuccess').style.display='block';
+    document.getElementById('contactForm').style.display='none';
+    document.getElementById('contactSuccess').scrollIntoView({behavior:'smooth'});
+  }
+</script>
+</body>
+</html>
